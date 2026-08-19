@@ -35,5 +35,9 @@
     "type": "git",
     "url": "https://github.com/rajyalabs/bribed-fyi.git"
   },
-  "homepage": "https://bribed.fyi"
+  "homepage": "https://bribed.fyi",
+  "overrides": {
+    "postcss": "^8.5.26",
+    "sharp": "^0.35.3"
+  }
 }
