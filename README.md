@@ -2,6 +2,10 @@
 
 India's crowdsourced, anonymous bribe registry — report what you paid (or refused to pay), and see the aggregate by department, city, and service.
 
+## Origins and credit
+
+bribed.fyi continues the work of **bribes.fyi**, the original Indian crowdsourced bribe registry, which went offline in August 2026. The concept, the information architecture and the interaction patterns here are modeled on bribes.fyi; this codebase began as an independent recreation of that interface (bribes.fyi's own source was never available to us) and has since been substantially modified and extended — Cloudflare Workers + D1 backend, server-side PII masking, community voting, privacy and provenance pages, and all site copy rewritten. The 41 bribes.fyi reports in the database were recovered from the Internet Archive and are republished under bribes.fyi's CC BY 4.0 data licence. bribed.fyi is not affiliated with bribes.fyi or its operators.
+
 ## What's included
 
 - Homepage: live ticker, India transparency map, state ledger, card/table feed, how-it-works, FAQ
