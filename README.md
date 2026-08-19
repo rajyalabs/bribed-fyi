@@ -57,3 +57,9 @@ bribes.fyi shut down in August 2026 without a final export. The database holds:
 The homepage notice, `/data#provenance` and Terms §7 state this. There is no synthetic seed data.
 
 Logo: India outline from `public/india.svg`; fist is Twemoji U+270A (CC BY 4.0, © Twitter, Inc. and contributors).
+
+## License
+
+Code: [GNU AGPL-3.0](LICENSE). Run it, change it, host it — if you run a modified copy as a
+service, publish your changes under the same licence. Data exported from the site is CC BY 4.0
+(see `/data`). Security reports: see [SECURITY.md](SECURITY.md).

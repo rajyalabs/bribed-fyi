@@ -29,5 +29,11 @@
     "eslint-config-next": "^15.5.0",
     "typescript": "^5.8.0",
     "wrangler": "^4.123.0"
-  }
+  },
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajyalabs/bribed-fyi.git"
+  },
+  "homepage": "https://bribed.fyi"
 }
