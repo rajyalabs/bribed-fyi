@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bribed-fyi",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-08-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "bribed-fyi-db",
+      "database_id": "a3b6ce2d-9465-448d-975b-28d5f07772ed",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "routes": [{ "pattern": "bribed.fyi", "custom_domain": true }, { "pattern": "www.bribed.fyi", "custom_domain": true }],
+  "ai": { "binding": "AI" },
+  "observability": { "enabled": false }
+}
